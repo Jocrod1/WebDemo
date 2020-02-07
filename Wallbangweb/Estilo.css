@@ -1,0 +1,103 @@
+
+
+body{
+	background: #000; 
+}
+#Cabecera{
+	height: 260px;
+	background: #000;
+	color: white;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 16px;
+	text-align: center;	
+	padding: 0 40px 0 40px;
+}
+#Principal{
+	background: #FFF;
+	width: auto;
+	padding: 15px 15px 15px 15px;
+	color: black;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 18px;
+}
+#Contenido{
+	width: auto;
+	padding: 40px 65px 40px 65px;
+	color: black;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 18px;
+}
+#Pie{
+	background: #000;
+	color: white;
+	font: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	text-align: center;		
+}
+#menuH{
+	padding: 0 0 0 0;
+	text-align: center;
+	margin: auto;
+	font-family: Impact, Times, serif;
+}
+/* Menú Horizontal */		
+ul {
+	list-style: none;
+	float: left;
+    list-style-type: none;
+    padding: 0;
+    position: relative; 
+    left: 50%;
+}	
+li{
+    float: left;
+    position: relative; 
+	right: 50%;
+}	
+.nav > li {
+	float: left;
+}			
+.nav li a {
+	background-color: #000;
+	color: #333;
+	text-decoration: none;
+	padding: 10px 20px;
+	display: block;
+}			
+.nav li a:hover {
+	background-color: #333;
+	color: #FFF;
+}			
+.nav li ul {
+	display: none;
+	position: absolute;
+}			
+.nav li:hover > ul {
+	display: block;
+}
+/* Alinear imagenes horizontales */
+.img-valign {
+  vertical-align: middle;
+  margin-bottom: 0.75em;
+}
+/* Estilo de los botones */
+.button{
+	display: block;
+	padding: 7px;
+	border: solid;
+	border-color: #000;
+	background: #333;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 14px;
+	color: #FFF;
+}
+.button:hover{
+	display: block;
+	padding: 5px;
+	border: solid;
+	border-color: #333;
+	background: #699;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 16px;
+	color: #000;
+}
